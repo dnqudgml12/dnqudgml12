@@ -4,7 +4,7 @@
 
  <h1>우병희(Woo_Byeonghee)</h1>
 
-### AI Systems • Backend • Service Architecture
+
 
 AI를 단순히 활용하는 것이 아니라  
 **서비스에서 안정적으로 동작하는 구조를 설계하는 개발자**입니다.
@@ -30,12 +30,18 @@ AI를 단순히 활용하는 것이 아니라
 ### ⚙️ Backend
 
 <p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,spring,mysql,firebase"/>
+<img src="https://skillicons.dev/icons?i=nodejs,spring,mysql,firebase"/>
 </p>
 
-### 🤖 AI
+### 🤖 AI & LLM
 
-`Gemini API` • `OpenAI API` • `LangChain` • `RAG` • `Prompt Engineering` • `LLM Workflow`
+<p>
+<img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google-gemini&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/RAG-009688?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prompt_Engineering-FF9800?style=for-the-badge"/>
+</p>
 
 ### ☁️ DevOps
 
