@@ -1,5 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&text=Woo%20Byeonghee&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Systems%20%7C%20Backend%20Developer&descAlignY=58)
-
+![header](https://capsule-render.vercel.app/api?type=waving&height=320&color=gradient&text=Woo%20Byeonghee&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Frontend%20%7C%20Backend%20%7C%20DevOps&descAlignY=60)
 <div align="center">
 
  <h1>우병희(Woo_Byeonghee)</h1>
