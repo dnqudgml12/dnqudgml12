@@ -70,7 +70,7 @@ AI를 활용해 뉴스의 핵심 내용을 분석하고
 - Naver News API 기반 관련 기사 수집
 - Complementary Insight 생성
 
-🔗 Repository
+🔗 Repository [View Repository](https://github.com/dnqudgml12/FactFlow_FE)
 
 ---
 
@@ -99,7 +99,8 @@ Q&A 커뮤니티까지 하나의 서비스에서 운영하는 코딩 교육 플�
 - 🏆 제39회 한동대학교 AI컴퓨터전자공학부 캡스톤 페스티벌 우수상
 - 🏆 KCC 2026 학부생 부문 장려상
 
-🔗 Repository
+🔗 Repository [View Repository](https://github.com/walab-Capstone1/H-CodeLab_FE)
+
 
 ---
 
@@ -122,7 +123,7 @@ Q&A 커뮤니티까지 하나의 서비스에서 운영하는 코딩 교육 플�
 - API 호출 최적화
 - Rate Limit 대응
 
-🔗 Repository
+🔗 Repository [View Repository](https://github.com/LangBridge-website/LangBridge_FE)
 
 ---
 
@@ -149,7 +150,7 @@ Q&A 커뮤니티까지 하나의 서비스에서 운영하는 코딩 교육 플�
 - Promise Cache를 통한 중복 API 호출 감소
 - memo/useCallback 기반 리렌더링 최적화
 
-🔗 Repository [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/dnqudgml12/npm.hub)
+🔗 Repository [View Repository](https://github.com/dnqudgml12/npm-hub)
 
 ---
 
@@ -173,7 +174,7 @@ Q&A 커뮤니티까지 하나의 서비스에서 운영하는 코딩 교육 플�
 - ASMR 콘텐츠 재생
 - 🏆 2023 한동 SW Festival 스마트 애플리케이션 공모전 우수상
 
-🔗 Repository
+🔗 Repository [View Repository](https://github.com/Club-PARD/web-www)
 
 ---
 
@@ -195,7 +196,7 @@ Q&A 커뮤니티까지 하나의 서비스에서 운영하는 코딩 교육 플�
 - Requirement Checker
 - Desktop Application
 
-🔗 Repository
+🔗 Repository [View Repository](https://github.com/dnqudgml12/Graduable_FE)
 
 ---
 
