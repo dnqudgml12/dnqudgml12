@@ -149,7 +149,7 @@ Q&A 커뮤니티까지 하나의 서비스에서 운영하는 코딩 교육 플�
 - Promise Cache를 통한 중복 API 호출 감소
 - memo/useCallback 기반 리렌더링 최적화
 
-🔗 Repository
+🔗 Repository [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/dnqudgml12/npm.hub)
 
 ---
 
