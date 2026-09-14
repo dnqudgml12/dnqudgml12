@@ -1,12 +1,11 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=320&color=gradient&text=Woo%20Byeonghee&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Frontend%20%7C%20Backend%20%7C%20DevOps&descAlignY=60)
+
 <div align="center">
 
- <h1>우병희(Woo_Byeonghee)</h1>
+<h1>우병희 (Woo Byeonghee)</h1>
 
-
-
-AI를 단순히 활용하는 것이 아니라  
-**서비스에서 안정적으로 동작하는 구조를 설계하는 개발자**입니다.
+사용자의 필요에서 문제를 찾고  
+**서비스가 실제로 동작할 때까지 끝까지 해결하는 개발자**입니다.
 
 </div>
 
@@ -29,7 +28,7 @@ AI를 단순히 활용하는 것이 아니라
 ### ⚙️ Backend
 
 <p>
-<img src="https://skillicons.dev/icons?i=nodejs,spring,mysql,firebase"/>
+<img src="https://skillicons.dev/icons?i=spring,mysql,firebase"/>
 </p>
 
 ### 🤖 AI & LLM
@@ -38,7 +37,6 @@ AI를 단순히 활용하는 것이 아니라
 <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google-gemini&logoColor=white"/>
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/RAG-009688?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Prompt_Engineering-FF9800?style=for-the-badge"/>
 </p>
 
@@ -56,26 +54,21 @@ AI를 단순히 활용하는 것이 아니라
 
 > AI-powered News Analysis Platform
 
-뉴스 URL 하나로
-
-✔ Bias Analysis
-
-✔ Fact Check
-
-✔ AI Summary
-
-✔ Related Articles
+AI를 활용해 뉴스의 핵심 내용을 분석하고  
+관련 기사를 통해 다양한 관점의 정보까지 제공하는 뉴스 분석 서비스
 
 **Tech**
 
-`React` `TypeScript` `Gemini` `LangChain`
+`Next.js` `TypeScript` `Gemini` `LangChain.js`
 
 **Highlights**
 
-- AI Pipeline 설계
-- 병렬 Workflow 구축
-- Hallucination 감소
-- Structured Output 설계
+- LangChain.js 기반 AI 분석 Pipeline 설계
+- 목적별 6개 분석 Chain의 Prompt 설계
+- 6개 병렬 분석 + 보완 분석의 2-Phase Workflow
+- LLM JSON 출력 정제 및 재시도 로직
+- Naver News API 기반 관련 기사 수집
+- Complementary Insight 생성
 
 🔗 Repository
 
@@ -83,21 +76,28 @@ AI를 단순히 활용하는 것이 아니라
 
 ## 💻 H-CodeLab
 
-> Programming Education Platform
+> Online Judge-based Programming Education Platform
 
-400명 이상이 사용하는 코딩 교육 플랫폼
+수업 관리, 과제 제출, 코딩 테스트, 실시간 채점,  
+Q&A 커뮤니티까지 하나의 서비스에서 운영하는 코딩 교육 플랫폼
+
+2026년 실제 프로그래밍 수업 및 코딩 캠프에 도입되어  
+약 300명의 사용자가 이용했습니다.
 
 **Tech**
 
-`Java` `Docker` `Linux` `Node.js`
+`React` `TypeScript` `Spring Boot` `JPA` `DOMjudge` `SSE` `Docker` `Jenkins`
 
 **Highlights**
 
-- Judge Server 구축
-- Sandbox 실행 환경
-- Auto Deployment
-- Horizontal Scaling
-- 100+ Concurrent Users
+- 권한별 수업·과제·문제·학생·성적 관리
+- DOMjudge 기반 자동채점 연동
+- SSE 기반 실시간 채점 결과 전달
+- ZIP 기반 문제 일괄 등록
+- Locust 기반 동시 사용자 부하 테스트
+- 100명 동시 사용 환경 평균 응답시간 약 5s → 0.28s
+- 🏆 제39회 한동대학교 AI컴퓨터전자공학부 캡스톤 페스티벌 우수상
+- 🏆 KCC 2026 학부생 부문 장려상
 
 🔗 Repository
 
@@ -107,7 +107,8 @@ AI를 단순히 활용하는 것이 아니라
 
 > AI Translation Workflow Framework
 
-문맥을 유지하면서 번역 품질과 처리 속도를 개선하기 위한 번역 파이프라인 프로젝트
+문맥을 유지하면서 번역 품질과 처리 속도를 개선하기 위한  
+번역 파이프라인 프로젝트
 
 **Tech**
 
@@ -127,9 +128,10 @@ AI를 단순히 활용하는 것이 아니라
 
 ## 📦 npm.hub
 
-> NPM Package Analytics Platform
+> NPM Package Search & Analytics Platform
 
-프론트엔드 개발자를 위한 NPM 패키지 탐색 서비스
+프론트엔드 개발자가 필요한 npm 패키지를  
+탐색하고 비교할 수 있도록 정보를 통합한 서비스
 
 **Tech**
 
@@ -137,11 +139,15 @@ AI를 단순히 활용하는 것이 아니라
 
 **Highlights**
 
-- Package Search
-- Download Trends
+- npm Registry·Downloads API 연동
+- GitHub·unpkg 등 외부 API 연동
+- Package Search & Autocomplete
 - README Preview
-- Dependency Analysis
-- Search Optimization
+- Download Trends
+- Recoil 기반 데이터 가공
+- debounce 기반 검색 요청 최적화
+- Promise Cache를 통한 중복 API 호출 감소
+- memo/useCallback 기반 리렌더링 최적화
 
 🔗 Repository
 
@@ -149,9 +155,10 @@ AI를 단순히 활용하는 것이 아니라
 
 ## 🌱 Shimple
 
-> Mental Care Web Service
+> Mental Care & Community Web Service
 
-심리 케어 및 커뮤니티 서비스
+휴식 콘텐츠와 사용자 간 소통을 제공하는  
+심리 케어 및 커뮤니티 웹 서비스
 
 **Tech**
 
@@ -159,11 +166,12 @@ AI를 단순히 활용하는 것이 아니라
 
 **Highlights**
 
-- Authentication
-- Community
-- ASMR
-- Firebase
-- 🏆 Handong SW Festival Award
+- Google Authentication
+- Firestore 기반 사용자·게시글 데이터 관리
+- Firebase Storage 연동
+- Community 게시글 조회·작성
+- ASMR 콘텐츠 재생
+- 🏆 2023 한동 SW Festival 스마트 애플리케이션 공모전 우수상
 
 🔗 Repository
 
@@ -173,7 +181,8 @@ AI를 단순히 활용하는 것이 아니라
 
 > Graduation Planning Platform
 
-학생들의 졸업요건 관리 플랫폼
+학생들의 졸업요건 확인과 학업 계획을 돕는  
+졸업요건 관리 플랫폼
 
 **Tech**
 
@@ -192,51 +201,36 @@ AI를 단순히 활용하는 것이 아니라
 
 # 🏆 Awards & Research
 
-🥇 Capstone Design Award
+### 🏆 Awards
 
-📄 KCC 2026 Conference Paper
+- **2026 | KCC 2026 학부생 부문 장려상**
+  - 「온라인 저지 기반 프로그래밍 수업 지원 서비스 설계 및 학습 효과 분석」
 
-🎤 Conference Presentation
+- **2026 | 제39회 한동대학교 AI컴퓨터전자공학부 캡스톤 페스티벌 우수상**
+  - H-CodeLab
 
-👥 400+ Students Service Operation
+- **2023 | 한동 SW Festival 스마트 애플리케이션 공모전 우수상**
+  - Shimple / Team WWW
+
+### 📄 Research
+
+**KCC 2026**
+
+「온라인 저지 기반 프로그래밍 수업 지원 서비스 설계 및 학습 효과 분석」
+
+- 온라인 저지 기반 프로그래밍 수업 지원 서비스 개발 및 실제 수업 적용
+- 2026년 1학기 C프로그래밍 2개 분반 및 동계 캠프 운영, 300명 대상 분석
+- KCC 2026 학부생 부문 장려상
 
 ---
 
 # 📚 Interests
 
-- AI Systems
+- Web Application
 - Backend Architecture
-- LLM Engineering
+- AI & LLM Engineering
 - DevOps
-- Cloud Infrastructure
-
----
-
-# 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=dnqudgml12&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dnqudgml12&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=dnqudgml12&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-# 🏅 Algorithm
-
-<div align="center">
-
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dnqudgml12)](https://solved.ac/dnqudgml12)
-
-</div>
+- Service Optimization
 
 ---
 
@@ -245,15 +239,11 @@ AI를 단순히 활용하는 것이 아니라
 <p>
 
 <a href="mailto:dnqudgml1@gmail.com">
-
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-
 </a>
 
 <a href="https://www.instagram.com/vang.ee/">
-
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-
 </a>
 
 </p>
